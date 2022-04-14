@@ -47,12 +47,17 @@ footer p {
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 .note p {
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
+  overflow-wrap: break-word;
   word-wrap: break-word;
+  hyphens: auto;
 }
 
 .note button {
